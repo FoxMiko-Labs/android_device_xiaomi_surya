@@ -18,8 +18,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # EvolutionX Flags
 EVO_BUILD_TYPE := Unofficial
-WITH_GMS := true
-TARGET_USES_PICO_GAPPS := true
+WITH_GMS := false
+TARGET_USES_PICO_GAPPS := false
 BUILD_BCR := false
 BYPASS_CHARGE_SUPPORTED := true
 TARGET_ENABLE_BLUR := true

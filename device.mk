@@ -500,3 +500,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.fw.bservice_age=5000 \
     ro.sys.fw.bservice_enable=true \
     persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
+# Enable DM file pre-opting to reduce first boot time
+PRODUCT_DEX_PREOPT_GENERATE_DM_FILES := true
