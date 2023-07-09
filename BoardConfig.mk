@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020-2025 The LineageOS Project
+# Copyright (C) 2020-2026 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -83,6 +83,9 @@ BOARD_KERNEL_CMDLINE += loop.max_part=7
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
+
+# MiuiCamera
+-include device/xiaomi/miuicamera-surya/BoardConfig.mk
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
