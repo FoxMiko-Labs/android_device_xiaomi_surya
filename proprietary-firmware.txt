@@ -1,21 +1,20 @@
-# Firmware - from surya (V14.0.5.0.SJGEUXM) - (OTA Image).
-# aop.mbn: from V12.5.8.0 (fix macro lens)
+# Firmware - from surya (V12.5.8.0.SJGEUXM) - (OTA Image).
 
-BTFM.bin|9051f947997f7e418ab574ffd87184565430a1ba
-NON-HLOS.bin|b689d1f9b96795285e6ce829483ed3d87a999a01
-abl.elf|e8df545c936135131c57d0925779b64ba9539a0c
-aop.mbn|2341652f2235e9a62680dd386ee2e0b432b8b715
-cmnlib.mbn|7aaf9ff856afcf07f21ea30baa87794a3fbdfcdc
-cmnlib64.mbn|7b0c7f4004cabf1b73c0a483c5dff061b7f1fd56
-devcfg.mbn|90e1a1fdd8c51125075a20ac500ed16ab8c2db6c
-dspso.bin|fa7ef222aa1ecc6d8c0d6dd7180f4d31b95a240e
-ffu.img|a9e9a15e94f59222fe11991221cf59eede39159e
-hyp.mbn|7bc88b2bcdbeaf98e6d981dcef69ae79f52437cd
-imagefv.elf|1e65b32e156efed462b4d783391d3d73ff509ad4
-km4.mbn|267f2d0bd47006ab247cd4c27837cdfa1d4c33df
-qupv3fw.elf|d5413bbcfbc3d3257a336348051e6743650b9a4b
-storsec.mbn|c85e32f913ad176b8bc8bfd7f6a245bca32a2ce7
-tz.mbn|314b454a78ea59c7ff2c03157d430ad3bc5ee20e
-uefi_sec.mbn|b572f7e8a86b25932118e325ac4612ad7c941cc2
-xbl.elf|24ce1f6d6cd52fd649ddf89e165dbf073ffc2050
-xbl_config.elf|37d04a1188528975ae347f33efb26d684baced2c
+BTFM.bin|0e32e211d340e5e53d9daa7bdba54746d97e556e
+NON-HLOS.bin|68684ec1ad768b41108a9ecb69d948e5f12471e1
+abl.elf|c4f91c025f5bcd5876da13f5a45f3ca508f245a7
+aop.mbn|a62634dc0bc3c34e3ea6fb951b8e1cf49f6e7dfe
+cmnlib.mbn|09487f9ba2a16ab3118e380c4a6a5e2c094c6ded
+cmnlib64.mbn|8f19ac8cbfde7100f5e954ab3ca9765696d03258
+devcfg.mbn|c7ea290fc1c1f1cc23e942e9b1fed3e22583abb6
+dspso.bin|9c6ff3e057db6ada841dcc7ebd270a63bf3e6407
+ffu.img|563850377002e63d0b6f3980eadd044e190366e7
+hyp.mbn|a13e366970549dfbb5ab45a2251c97266b80e13e
+imagefv.elf|40657b085019c3a100811d3f47c230aa98f42d0b
+km4.mbn|2349d0cfecb46cb0e34c827dc68f2bf78f305f0c
+qupv3fw.elf|bd025a4f4ed0fa84a0129adc2e5547e54787cede
+storsec.mbn|6aa53b2b90291132959d558868e7998bbe36b456
+tz.mbn|a0b89ff755b4037d89849f0814b09edf8304b799
+uefi_sec.mbn|9b21c37d36c5e831765ad0182c71a701fe1a4d35
+xbl.elf|e2372c6f6fa3b7736d595d963b3d0aed613e511a
+xbl_config.elf|4e9e83cd3da2c1985b540b94fea38f3ef0970388
