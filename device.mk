@@ -26,9 +26,6 @@ PRODUCT_COPY_FILES += \
 # XiaomiParts
 $(call inherit-product, device/xiaomi/surya/parts/parts.mk)
 
-# Inherit surya firmware images
-$(call inherit-product, firmware/xiaomi/surya/Android.mk)
-
 # Camera
 $(call inherit-product-if-exists, vendor/xiaomi/camera/surya-camera.mk)
 
