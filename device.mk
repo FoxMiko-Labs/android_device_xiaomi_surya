@@ -29,6 +29,9 @@ $(call inherit-product, device/xiaomi/surya/parts/parts.mk)
 # Camera
 $(call inherit-product-if-exists, vendor/xiaomi/camera/surya-camera.mk)
 
+# Signing
+-include vendor/lineage-priv/keys/keys.mk
+
 # Audio
 TARGET_EXCLUDES_AUDIOFX := true
 
