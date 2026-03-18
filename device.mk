@@ -301,6 +301,7 @@ PRODUCT_PACKAGES += \
     KarnaFrameworks \
     KarnaSettingsProvider \
     KarnaWifiResources \
+    NexusLauncherOverlay \
     SuryaFrameworks \
     SuryaSettingsProvider \
     SuryaWifiResources
