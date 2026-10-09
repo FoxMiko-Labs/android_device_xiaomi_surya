@@ -14,7 +14,9 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit some common AxionOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
 TARGET_SCREEN_WIDTH := 1080
+TARGET_DISABLE_EPPE := true
 
 PRODUCT_NAME := lineage_surya
 PRODUCT_DEVICE := surya
@@ -23,8 +25,8 @@ PRODUCT_MODEL := M2007J20CG
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Axion stuff
-AXION_MAINTAINER := Debayan_Kar
-AXION_PROCESSOR := Snapdragon_732G
+AXION_MAINTAINER := F_O_X_E_S_K_Y
+AXION_PROCESSOR := Snapdragon_732G_MAX
 
 # Blur
 TARGET_ENABLE_BLUR := true
