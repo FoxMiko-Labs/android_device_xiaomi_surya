@@ -13,9 +13,6 @@
   },
   {
     "remote": "gitlab",
-    "repository": "NoPrincessHere/proprietary_vendor_oneplus_dolby",
-    "target_path": "vendor/oneplus/dolby"
-  },
   {
     "remote": "gitlab",
     "repository": "NoPrincessHere/proprietary_vendor_xiaomi_miuicamera-surya",
