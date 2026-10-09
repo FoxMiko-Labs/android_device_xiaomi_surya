@@ -13,10 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/custom/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_SCREEN_WIDTH := 1080
 
-PRODUCT_NAME := custom_surya
+PRODUCT_NAME := lineage_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := M2007J20CG

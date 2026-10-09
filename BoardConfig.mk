@@ -72,6 +72,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 
 TARGET_KERNEL_SOURCE := kernel/xiaomi/surya
 TARGET_KERNEL_CONFIG := surya_defconfig
+TARGET_KERNEL_CLANG_VERSION := r563880c
 TARGET_KERNEL_NO_GCC := true
 
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0x880000
@@ -164,7 +165,7 @@ SOONG_CONFIG_xiaomiSuryaVars_livedisplay_support_anti_flicker ?= false
 SOONG_CONFIG_xiaomiSuryaVars_livedisplay_support_sunlight_enhancement ?= true
 
 # Vendor security patch level
-VENDOR_SECURITY_PATCH := 2023-06-01
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
