@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Doze -->
+    <string name="doze_settings_help_title">Help</string>
+    <string name="doze_settings_help_text">Doze sensors allow the device to wake automatically based on certain situations, such as extracting the device from your pocket.</string>
+</resources>
