@@ -73,3 +73,4 @@ genfscon sysfs /devices/virtual/input/input1/wakeup                             
 
 # Touchpanel
 genfscon sysfs /devices/virtual/touch/touch_dev/        u:object_r:sysfs_touchpanel:s0
+genfscon sysfs /touchpanel                                                           u:object_r:sysfs_touchpanel:s0
