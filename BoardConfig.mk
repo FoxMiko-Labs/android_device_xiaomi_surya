@@ -89,6 +89,9 @@ BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 # MiuiCamera
 -include device/xiaomi/miuicamera-surya/BoardConfig.mk
 
+# Malloc
+MALLOC_SVELTE := true
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
 
