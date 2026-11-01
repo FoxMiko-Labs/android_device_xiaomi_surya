@@ -18,6 +18,7 @@ DEVICE_PATH := device/xiaomi/surya
 
 # Inherit from proprietary files
 include vendor/xiaomi/surya/BoardConfigVendor.mk
+-include vendor/xiaomi/camera/BoardConfig.mk
 
 # Architecture
 TARGET_ARCH := arm64
