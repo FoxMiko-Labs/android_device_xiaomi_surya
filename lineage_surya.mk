@@ -12,11 +12,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from surya device
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/custom/config/common_full_phone.mk)
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_SCREEN_WIDTH := 1080
 
-PRODUCT_NAME := custom_surya
+# EvolutionX Flags
+EVO_BUILD_TYPE := Unofficial
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+BUILD_BCR := false
+BYPASS_CHARGE_SUPPORTED := true
+TARGET_ENABLE_BLUR := true
+TARGET_INCLUDE_ACCORD := false
+
+PRODUCT_NAME := lineage_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := M2007J20CG

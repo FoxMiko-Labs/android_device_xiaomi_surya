@@ -480,3 +480,19 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/surya/surya-vendor.mk)
+
+# Memory Management
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lmk.kill_heaviest_task=true \
+    ro.lmk.kill_timeout_ms=100 \
+    ro.lmk.use_minfree_levels=false \
+    ro.lmk.psi_partial_stall_ms=70 \
+    ro.lmk.psi_complete_stall_ms=700 \
+    ro.lmk.thrashing_limit=30 \
+    ro.lmk.thrashing_limit_decay=5 \
+    ro.lmk.swap_util_max=100 \
+    ro.sys.fw.bg_apps_limit=24 \
+    ro.sys.fw.bservice_limit=8 \
+    ro.sys.fw.bservice_age=5000 \
+    ro.sys.fw.bservice_enable=true \
+    persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
