@@ -6,3 +6,6 @@ ro.bpf.kver_override=5.10.239
 
 # Phantom process monitoring
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
+# Lunaris
+ro.lunaris.maintainer=F O X E S K Y

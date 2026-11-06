@@ -378,7 +378,7 @@ PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer
 
 # Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
+$(call inherit-product-if-exists, vendor/sony/dolby/sonydolby.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -487,3 +487,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
+
+# Lunaris Stuff
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
